@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin-top: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #190e44;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+   
+}
+
+
+.left-login{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    
+    
+}
+
+.card-login{
+    width: 30%;
+   display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding: 9px 8px;
+    background: #323a91;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #49494956;
+    position:relative;
+    top:-10px;
+    left: 100px;
+   }
+
+.card-login >h2{
+    color: rgb(35, 150, 158);
+    font-weight: 800;
+    margin: 0;
+    
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 8px 0px;
+}
+
+.textfield1 > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #283053;
+    color: #f0ffffde;
+    font-size: 10pt;
+    box-shadow:0px 10px 10px #4e474756;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 12pt;
+}
+.textfield2 > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #283053;
+    color: #f0ffffde;
+    font-size: 10pt;
+    box-shadow:0px 10px 10px #4e474756;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 12pt;
+}
+
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+    font-size: 12pt;
+   
+}
+.left-imagem{
+    width: 35vw;
+    position: absolute;
+    left: 0;
+    
+}
+
+.textfield > input::placeholder{
+    font-size: 3vw;
+    color: #f0ffff94
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 10px;
+    border: none;
+    border-radius: 100px;
+    font-size: 12pt;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    color: #07a7cf94;
+    background: #04669456;
+    cursor: pointer;
+    box-shadow: 0px 8px 40px -12px #9e9e9d56;
+}
+
+@media only screen and (max-width: 950px){
+        .card-login{
+            width: 85%;
+        }
+}
+
+@media only screen and (max-widht: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+}
+    
