@@ -9,7 +9,7 @@
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: #190e44;
+    background: #636060;
     display: flex;
     justify-content:center ;
     align-items: center;
@@ -29,7 +29,7 @@
 
 .card-entre{
     width: 35%;
-    color: rgb(35, 150, 158);
+    color: rgb(49, 48, 48);
     font-size: 27px;
     position: absolute;
     left: 10%; 
@@ -45,7 +45,7 @@
     align-items: center; 
     flex-direction: column;
     padding: 9px 8px;
-    background: #323a91;
+    background: rgb(171, 170, 185);
     border-radius: 10px;
     box-shadow: 0px 10px 50px #49494956;
     position:relative;
@@ -54,7 +54,7 @@
    }
 
 .card-login >h2{
-    color: rgb(35, 150, 158);
+    color: rgb(49, 48, 48);
     font-weight: 800;
     margin: 0;
     
@@ -74,7 +74,7 @@
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #283053;
+    background: rgb(49, 48, 48);
     color: #f0ffffde;
     font-size: 10pt;
     box-shadow:0px 10px 10px #4e474756;
@@ -87,7 +87,7 @@
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: #283053;
+    background: rgb(49, 48, 48);
     color: #f0ffffde;
     font-size: 10pt;
     box-shadow:0px 10px 10px #4e474756;
@@ -116,7 +116,7 @@
     color: #f0ffff94
 }
 .textfield3{
-    color:  rgb(35, 150, 158);
+    color: rgb(49, 48, 48);
     
     display: flex;
     justify-content:center ;
@@ -136,8 +136,8 @@
     text-transform: uppercase;
     font-weight: 1000;
     letter-spacing: 3px;
-    color: #07a7cf94;
-    background: #04669456;
+    color: rgb(49, 48, 48);
+    background: rgb(114, 111, 111);
     cursor: pointer;
     box-shadow: 0px 8px 40px -12px #9e9e9d56;
 }
